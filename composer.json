@@ -14,10 +14,7 @@
     "autoload": {
         "psr-4": {
             "Mprince\\Markdown\\": "src/"
-        },
-        "files": [
-            "src/helper.php"
-        ]
+        }
     },
     "extra": {
         "laravel": {
