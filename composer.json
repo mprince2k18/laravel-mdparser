@@ -16,7 +16,7 @@
             "Mprince\\Markdown\\": "src/"
         },
         "files": [
-            "src/helpers.php"
+            "src/helper.php"
         ]
     },
     "extra": {
