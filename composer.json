@@ -1,0 +1,38 @@
+{
+    "name": "mprince/laravel-mdparser",
+    "description": "Laravel markdown parser",
+    "type": "metapackage",
+    "require": {
+        "illuminate/support": "^9.45",
+        "erusev/parsedown": "^1.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mprince\\Markdown\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mprince\\Markdown\\MarkdownServiceProvider"
+            ],
+            "aliases": {
+                "Markdown": "Mprince\\Markdown\\Facade"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "mprince2k18",
+            "email": "mprince2k16@gmail.com"
+        }
+    ]
+}
